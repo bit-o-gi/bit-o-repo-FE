@@ -1,3 +1,41 @@
+# OS / 에디터
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 패키지 매니저 / 캐시
+node_modules/
+.npm-cache/
+.pnpm-store/
+.yarn/cache/
+
+# 빌드 결과물
+.next/
+out/
+dist/
+.turbo/
+.vercel/
+.swc/
+.parcel-cache/
+.cache/
+.sass-cache/
+
+# 테스트/커버리지
+coverage/
+
+# 환경 변수
+.env
+.env.local
+.env*.local
+
+# 로그 / 기타
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.eslintcache
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
