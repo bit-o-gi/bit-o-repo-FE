@@ -223,19 +223,19 @@ const Portfolio = () => {
   const projects = [
     {
       title: "아이쇼핑",
-      category: "AI 안경 추천 서비스",
+      category: "AI 시각장애인 오프라인 쇼핑 도우미",
       img: "https://placehold.co/600x400/3B82F6/FFFFFF?text=Eye-Shopping",
       githubUrl: "https://github.com/eye-I-shopping/eye-I-Shopping"
     },
     {
       title: "어흥",
-      category: "초등학생 경제 교육 플랫폼",
+      category: "온라인 노인 화상채팅 프로젝트",
       img: "https://placehold.co/600x400/8B5CF6/FFFFFF?text=Eo-heung",
       githubUrl: "https://github.com/Eo-heung/Eo-heungReadme"
     },
     {
       title: "먹자취",
-      category: "맛집 기록 및 공유",
+      category: "소상공인 오프라인 먹거리 쇼핑 플랫폼",
       img: "https://placehold.co/600x400/10B981/FFFFFF?text=Mukjachi",
       githubUrl: "https://github.com/bitcampprettytiger/mukjachi"
     },
