@@ -58,7 +58,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16 items-center">
           <a href="#home" onClick={(e) => handleScroll(e, 'home')} className="flex-shrink-0 flex items-center cursor-pointer">
             <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 text-transparent bg-clip-text">
-              BioStudy Dev
+              3jul
             </span>
           </a>
 
@@ -357,11 +357,18 @@ const Team = () => {
     {
       name: "심봉교",
       role: "풀스택 개발자",
-      experience: "경력 3년 (現 파츠몰 근무)",
+      experience: "경력 3년",
       bio: "사용자 경험을 최우선으로 생각하며, 안정적이고 확장 가능한 백엔드를 구축합니다.",
       imageUrl: "https://placehold.co/200x200/DBEAFE/1D4ED8?text=BG&fontsize=40",
       linkedIn: "https://www.linkedin.com/in/%EB%B4%89%EA%B5%90-%EC%8B%AC-35979829a",
-    },
+    },{
+    name: "성지민",
+    role: "풀스택 개발자",
+    experience: "경력 3년",
+    bio: "폭넓은 기술 스택으로 신뢰할 수 있는 서비스를 만들며, 구조적인 문제 분석과 안정적인 시스템 구축에 강점이 있습니다.",
+    imageUrl: "https://placehold.co/200x200/FDE68A/CA8A04?text=JM&fontsize=40"
+  }
+  ,
   ];
 
   return (
@@ -531,7 +538,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-50 py-12 border-t border-gray-200">
       <div className="max-w-7xl mx-auto px-4 text-center text-gray-500">
-        <p className="font-bold text-xl text-gray-800 mb-4">BioStudy Dev</p>
+        <p className="font-bold text-xl text-gray-800 mb-4">3jul</p>
         <p className="text-sm">&copy; {new Date().getFullYear()} All Rights Reserved. Designed by React & Tailwind.</p>
       </div>
     </footer>
@@ -548,7 +555,6 @@ export default function Home() {
       <main>
         <Hero />
         <Services />
-        {/* 새로 추가된 UseCases (예시) 섹션 */}
         <UseCases />
         <Portfolio />
         <Team /> 
