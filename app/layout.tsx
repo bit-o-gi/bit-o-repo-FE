@@ -6,7 +6,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "BioStudy Dev - 외주 랜딩 페이지",
+  title: "3jul",
   description: "리액트 기반 웹 솔루션 전문",
 };
 
