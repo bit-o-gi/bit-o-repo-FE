@@ -431,7 +431,7 @@ const Contact = () => {
     setErrorMessage('');
 
     // NOTE: 실제 API 연동 시 .env.local 파일에 NEXT_PUBLIC_API_URL 설정 필요
-    const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://207.246.115.174:8080';
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://api.example.com';
 
     try {
       const response = await fetch(`${apiUrl}/api/v1/inquiries`, {
